@@ -1,4 +1,4 @@
-# sando-bujutsu
+# vue-template
 
 ## Project setup
 ```
