@@ -1,26 +1,26 @@
 <template>
   <v-app>
     <v-main>
-      <MainComponent />
+      <HelloWorld/>
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import MainComponent from "@/components/MainComponent.vue";
+import { defineComponent } from 'vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
 
   components: {
-    MainComponent,
+    HelloWorld,
   },
 
-  data() {
+  data () {
     return {
       //
-    };
+    }
   },
-});
+})
 </script>
